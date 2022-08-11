@@ -1,0 +1,21 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  background-color: rgb(32, 34, 37);
+}
+
+.ContactSection {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3vh 0;
+}
+
+.ContactSection svg {
+  width: 2.5rem;
+  height: 2.5rem;
+}
