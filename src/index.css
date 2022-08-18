@@ -1,6 +1,19 @@
 :root {
-  --text-color: #c3ccd4;
-  --text-color-hover: #a5b3c0;
+  --text-color-dark: #c3ccd4;
+  --text-color-light: #202225;
+  --text-color-dark-hover: #a5b3c0;
+  --text-color-light-hover: #40444a;
+  --base-color-dark: #202225;
+  --base-color-light: #c3ccd4;
+}
+
+[data-color-mode="dark"] {
+  background-color: var(--base-color-dark);
+  color: var(--text-color-dark);
+}
+[data-color-mode="light"] {
+  background-color: var(--base-color-light);
+  color: var(--text-color-light);
 }
 
 * {
@@ -16,22 +29,28 @@ html {
 
 body {
   font: 14px "Century Gothic", Futura, sans-serif;
-  color: var(--text-color);
 }
 
 a {
   text-decoration: none;
   color: inherit;
 }
-a:hover > * {
-  color: var(--text-color-hover);
-  fill: var(--text-color-hover);
+[data-color-mode="dark"] a:hover * {
+  color: var(--text-color-dark-hover);
+  fill: var(--text-color-dark-hover);
+}
+[data-color-mode="light"] a:hover * {
+  color: var(--text-color-light-hover);
+  fill: var(--text-color-light-hover);
 }
 
 img {
   pointer-events: none;
 }
 
-svg {
-  fill: var(--text-color);
+[data-color-mode="dark"] svg {
+  fill: var(--text-color-dark);
+}
+[data-color-mode="light"] svg {
+  fill: var(--text-color-light);
 }

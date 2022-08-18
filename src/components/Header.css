@@ -1,0 +1,11 @@
+header {
+  position: fixed;
+  width: 100vw;
+  padding: 1rem;
+}
+
+.color-mode {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
