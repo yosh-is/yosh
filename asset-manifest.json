@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/yosh/static/css/main.c5628506.css",
-    "main.js": "/yosh/static/js/main.2d1f909a.js",
+    "main.css": "/yosh/static/css/main.c2398faf.css",
+    "main.js": "/yosh/static/js/main.b868ea47.js",
     "index.html": "/yosh/index.html",
-    "main.c5628506.css.map": "/yosh/static/css/main.c5628506.css.map",
-    "main.2d1f909a.js.map": "/yosh/static/js/main.2d1f909a.js.map"
+    "main.c2398faf.css.map": "/yosh/static/css/main.c2398faf.css.map",
+    "main.b868ea47.js.map": "/yosh/static/js/main.b868ea47.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5628506.css",
-    "static/js/main.2d1f909a.js"
+    "static/css/main.c2398faf.css",
+    "static/js/main.b868ea47.js"
   ]
 }
